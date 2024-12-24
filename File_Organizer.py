@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import os
 import shutil
 
@@ -68,16 +62,3 @@ def organize_files_in_directory(directory_to_organize):
 directory_path = input("Enter the directory path to organize: ").strip()
 print(f"Provided directory path: {directory_path}")
 organize_files_in_directory(directory_path)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
